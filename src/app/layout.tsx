@@ -35,7 +35,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${oswald.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-white">{children}</body>
+      <body className="min-h-full w-full bg-white overflow-x-hidden">{children}</body>
     </html>
   );
 }
